@@ -6,7 +6,6 @@
 }
 
 body {
-    /* font-size: 18px; */
     overflow-x: hidden;
 }
 
@@ -17,7 +16,6 @@ body {
 header {
     margin: auto;
     height: 10vh;
-    /* width: 100vw; */
     background-color: white;
     position: sticky;
     top: 0;
@@ -80,24 +78,18 @@ header {
 .home-section {
     margin: auto;
     height: 90vh;
-    /* width: 100vw; */
-    /* background-color: lightcyan; */
     display: flex; 
     flex-direction: row;
 }
 .home-container {
-    /* flex-grow: 5.7; */
-    /* background-color: blueviolet; */
     margin: auto;
     height: 50vh;
     width: 35vw;
     margin-left: 10vw;
-    /* padding: 5vh 12vh 10vh 0; */
 }
 
 #home-h1 {
     font-size: 6.8vh;
-    /* letter-spacing: 0.3vh; */
     font-weight: 130;
     padding: 3vh 0 1.5vh 0;
     text-align:left;
@@ -116,20 +108,13 @@ header {
 }
 
 .home-imgs {
-    /* flex-grow: 6.3; */
-    /* background-color: aqua; */
-    /* margin: auto; */
     height: 80vh;
     width: 65vw;
 }
 
 .bg-img {
-    /* height: 30vh;
-    width: 30vh; */
     height: 110vh;
     width: 58vw;
-    /* margin-top: -27vh;
-    margin-right: -200vw; */
     position: absolute;
     right: -6vw;
     top: -15vh;
@@ -142,9 +127,6 @@ header {
     position: absolute;
     top: -4vh;
     right: -7.6vw;
-    /* display: block; */
-
-    /* margin-left: 30vw; */
     z-index: 1;
 }
 
@@ -182,7 +164,6 @@ main {
 .services-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: space-between; */
     padding-top: 11vh;
     padding-right: 10vw;
 }
@@ -190,8 +171,6 @@ main {
 #service1, #service2, #service3, #service4 {
     text-align: left;
     padding-right: 2vw;
-    /* overflow-y: auto; */
-    /* white-space: nowrap; */
 }
 
 #service1 > img, #service2 > img, #service3 > img, #service4 > img  {
@@ -224,14 +203,11 @@ main {
     display: flex;
     flex-direction: row;
     height: 80vh;
-    /* width: 100vw; */
-    /* background-color: red; */
 }
 
 #article1 > img, #article2 > img, #article3 > img, #article4 > img {
     height: 30vh;
     width: 18vw;
-    /* padding-bottom: 4vh; */
 }
 
 #article1 > div, #article2 > div, #article3 > div, #article4 > div {
@@ -257,7 +233,6 @@ main {
 }
 
 footer {
-    /* margin: auto; */
     height: 20vh;
     width: 100vw;
     background-color: hsl(233, 26%, 24%);
@@ -267,7 +242,6 @@ footer {
 }
 
 .logo-social-container {
-    /* background-color: red; */
     margin: 5vh 5vw 0 8.5vw;
     height: 15vh;
     width: 15vw;
@@ -290,7 +264,6 @@ footer {
 }
 
 .links {
-    /* background-color: blueviolet; */
     display: flex;
     flex-direction: column;
     height: 20vh;
@@ -298,12 +271,10 @@ footer {
     padding: 5vh 3vh 1vh 3vh;
     margin-right: 14.5vw;
     flex-wrap: wrap;
-    /* justify-content: center; */
 }
 
 .links > div {
     padding-bottom: 1.5vh;
-    /* background-color: aqua; */
 }
 
 .links > div > a {
@@ -316,7 +287,6 @@ footer {
 }
 
 .copyright {
-    /* background-color: blue; */
     height: 20vh;
     width: 15vw;
     text-align: right;
@@ -353,7 +323,6 @@ button:hover {
         text-align: center;
     }
     .services-container {
-        /* flex-wrap: wrap; */
         flex-direction: column;
         justify-content: space-between;
         text-align: center;
@@ -373,8 +342,6 @@ button:hover {
         width: 38vw;
     }
     #article1, #article2, #article3, #article4 {
-        /* align-self: center; */
-        /* text-align: center; */
         width: 50%;
     }
 
@@ -416,7 +383,7 @@ button:hover {
     }
 
     .navbar {
-      display: none; /* Initially hide on smaller screens */
+      display: none;
     }
 
     .navbarShow a {
@@ -428,7 +395,7 @@ button:hover {
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 11vh; /* Adjust as needed */
+      top: 11vh;
       left: 5vw;
       margin: auto;
       width: 90%;
@@ -472,7 +439,6 @@ button:hover {
     .bg-img-mobile {
         display: block;
         width: 100vw;
-        /* position: absolute; */
     }
     .mockup-img {
         height: 105vh;
@@ -508,7 +474,6 @@ button:hover {
     footer {
         height: 60vh;
         flex-direction: column;
-        /* justify-content: space-between; */
     }
     
     .logo-social-container {
@@ -521,8 +486,6 @@ button:hover {
     .logo-footer {
         text-align: center;
         margin: auto;
-        
-        /* background-color: brown; */
     }
 
     .logo-footer > img {
